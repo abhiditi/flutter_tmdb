@@ -3,7 +3,7 @@ import 'package:fluttertmdb/model/video_response.dart';
 import '../model/movie_response.dart';
 
 class MovieRepo {
-  final String apiKey = "a413dc1e70d4133769723e788efbbd83";
+  final String apiKey = "YOUR_KEY_HERE";
   static String mainUrl = "https://api.themoviedb.org/3";
 
   final Dio _dio = Dio();
